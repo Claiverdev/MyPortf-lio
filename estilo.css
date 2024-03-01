@@ -1,10 +1,55 @@
-body{
-    background-color: darkgrey;
-    margin: auto; width: auto; 
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Anta", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    list-style: none;
+    text-decoration: none;
 }
-main{
+/*https://colorhunt.co/palette/e1f0dad4e7c5bfd8af99bc85*/
+
+:root{
+    --text-color:#fff;
+    --main-color: #99BC85;
+}
+
+body {
+    background-color: darkgrey;
+    margin: auto;
+    width: auto;
+}
+header{
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 0;
+    z-index: 1000;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 32px 15%;
+    background: transparent;
+}
+
+.logo{
+    color: var(--text-color);
+    font-size: 41px;
+    font-weight: 600;
+}
+
+.logo span{
+    color: var(--main-color);
+
+}
+
+.navbar{
+    display: flex;
+}
+
+main {
     background-color: aliceblue;
 }
-.socialmidia > table{
-    
-}
+
+.socialmidia>table {}
