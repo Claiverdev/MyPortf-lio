@@ -34,10 +34,12 @@ header{
     color: var(--text-color);
     font-size: 41px;
     font-weight: 600;
+    text-shadow: 3px 3px 6px #516347;
 }
 
 .logo span{
     color: var(--main-color);
+    font-size: larger;
 
 }
 
@@ -64,10 +66,29 @@ nav{
     color: #fff;
 }
 
+#pfp{
+    border-radius: 100px;
+    border: solid 5px #4b8827;
+    box-shadow: 0px 0px 50px 5px #99BC85;
+}
+
+
 textarea{
     resize: none;
 }
 
-table{
+.projetinhos{
+    border: 20px transparent;
+    border-collapse: collapse;
     
+    
+}
+
+td{
+    text-align: center;
+    
+}
+
+table{
+    width: 1000px;
 }
