@@ -11,15 +11,12 @@
 /*https://colorhunt.co/palette/e1f0dad4e7c5bfd8af99bc85*/
 /*https://colorhunt.co/palette/0926351b42425c83749ec8b9*/
 
-:root{
-    --text-color:#fff;
-    --main-color: #99BC85;
-}
 
 body {
     background-color: darkgrey;
     margin: auto;
-    width: 1000px;
+    width: auto;
+    height: max-content;
 }
 header{
     top: 0;
@@ -31,65 +28,40 @@ header{
     background: transparent;
 }
 
-.logo{
-    color: var(--text-color);
-    font-size: 41px;
-    font-weight: 600;
-    text-shadow: 3px 3px 6px #516347;
-}
-
-.logo span{
-    color: var(--main-color);
-    font-size: larger;
-
-}
-
 nav{
-    display: block;
-    justify-content: space-between;
-
-}
-
-.navbar{
-    background-color: #99BC85;
-}
-
-.navbar li{
-    display: inline;
-    text-align: center;
-    padding: 1px 20px;
-    text-decoration: none;
-    transition-duration: 100ms;
-}
-
-.navbar li:hover{
-    background-color: #516347;
-    color: #fff;
-}
-
-#pfp{
-    border-radius: 100px;
-    border: solid 5px #4b8827;
-    box-shadow: 0px 0px 50px 5px #99BC85;
-}
-
-
-textarea{
-    resize: none;
-}
-
-.projetinhos{
-    border: 20px transparent;
-    border-collapse: collapse;
+    float: right;
     
-    
+
 }
 
-td{
-    text-align: center;
-    
+.barrinhas{
+    width: 35px;
 }
 
-table{
-    width: 1000px;
+.bar{
+     width: 35px;
+    height: 5px;
+    background-color: black;
+    margin: 6px 0;
+}  
+
+section{
+    width: 1440px;
+    height: 1080;
+
 }
+
+
+#pfpbrd{
+    width: 667px;
+    height: 865px;
+}
+
+
+
+
+
+
+
+
+
