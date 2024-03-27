@@ -1,13 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Quantico:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
 * {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    font-family: "Anta", sans-serif;
-    font-weight: 400;
+    font-family: "Quantico", sans-serif;
+    font-weight: 500;
     font-style: normal;
     list-style: none;
     text-decoration: none;
+    text-align: center ;
 }
+
 /*https://colorhunt.co/palette/e1f0dad4e7c5bfd8af99bc85*/
 /*https://colorhunt.co/palette/0926351b42425c83749ec8b9*/
 
@@ -17,51 +21,55 @@ body {
     margin: auto;
     width: auto;
     height: max-content;
+    text-align: center;
 }
-header{
+
+header {
     top: 0;
     right: 0;
-    width: 1000px;
-    text-align: center;
+    width: auto;
     justify-content: space-between;
     padding: 32px 15%;
     background: transparent;
 }
 
-nav{
+nav {
     float: right;
-    
+
 
 }
 
-.barrinhas{
+.barrinhas {
     width: 35px;
 }
 
-.bar{
-     width: 35px;
+.bar {
+    width: 35px;
     height: 5px;
     background-color: black;
     margin: 6px 0;
-}  
+}
 
-section{
-    width: 1440px;
-    height: 1080;
-
+#projetos{
+    text-align: center;
 }
 
 
-#pfpbrd{
+#pfpbrd {
+    margin-left: 100px;
     width: 667px;
     height: 865px;
+    float: left;
 }
 
-
-
-
-
-
-
-
-
+aside{
+    width: 557px;
+    height: 865px;
+    float: right;
+}
+#p1
+{
+    width: auto;
+    height: 668px;
+    text-align: center;
+}
